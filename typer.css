@@ -1,0 +1,20 @@
+body {
+  background-color: #eee;
+}
+
+.scorebox {
+  width: 120px;
+  position: absolute;
+  z-index: 1000;
+  font-size: 25px;
+}
+
+.start,
+.stop,
+.pause,
+.resume {
+  bottom: 0;
+  width: 106px;
+  margin-top: 10px;
+  z-index: 1000;
+}

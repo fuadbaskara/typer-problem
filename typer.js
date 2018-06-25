@@ -158,7 +158,7 @@ var TyperView = Backbone.View.extend({
 			});
 
 		this.scoreBox = $('<label class="scorebox">')
-			.text(this.model.get('score') + " Scores");
+			.text("Scores " + this.model.get('score'));
 
 		$(this.el)
 			.append(wrapper
